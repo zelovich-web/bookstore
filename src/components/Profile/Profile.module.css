@@ -1,0 +1,97 @@
+.ProfilePersonForm {
+    display: flex;
+    margin-bottom: 48px;
+    gap: 32px;
+}
+
+hr {
+    margin-top: 72px;
+    margin-bottom: 48px;
+    border: none;
+    border-top: 1px solid #E7E7E7; 
+}
+
+.VerstkaKruto {
+    display: flex;
+    gap: 32px;
+
+}
+
+.ProfileWrapp {
+    margin-top: 72px;
+}
+
+.ProfileTitle {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-family: 'Bebas';
+    font-size: 56px;
+    
+}
+
+.ProfileSubTitle {
+    font-family: 'Bebas';
+    font-size: 24px;
+    margin-bottom: 16px;    
+}
+
+.InputLabel {
+    font-family: 'Helios';
+    font-size: 16px;
+    margin-bottom: 8px;   
+    margin-top: 16px; 
+}
+
+.ProfileInput {
+    width: 544px;
+    height: 56px;
+    border: 1px solid #E7E7E7; 
+    font-family: 'Helios';
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box;
+     
+}
+
+.ProfileInput::placeholder{
+    font-family: 'Helios';
+    font-size: 16px;
+    color: #A8A8A8;    
+    opacity: 0.5 ;
+}
+
+.ProfileBtns {
+    display: flex;
+    justify-content: right;
+    gap: 32px;
+}
+
+.ProfileBtnChange {
+    width: 256.77px;
+    height: 56px;
+    background-color: #313037;    
+    font-family: 'Bebas';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+}
+
+.ProfileBtnCancel {
+    width: 255.23px;
+    height: 56px;
+    border: 1px solid #E7E7E7; 
+    background-color: #fff;
+    font-family: 'Bebas';
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+.ProfileFormErrors {
+    color: red;
+    font-family: 'Helios';
+    font-size: 12;
+}

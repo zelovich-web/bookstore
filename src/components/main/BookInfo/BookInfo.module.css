@@ -1,0 +1,207 @@
+.Arrow{
+    margin-top: 77px;
+}
+
+.BookInfoTitle {
+    margin-top: 32px;
+    margin-bottom: 48px;
+    font-family: 'Bebas';
+    font-size: 56px;
+    max-width: 1044px;
+}
+
+.BookInfoWrapp {
+    display: flex;
+    gap: 128px;
+    margin-bottom: 72px;
+}
+
+.BookInfoImgBg {
+    width: 544px;
+    height: 472px;
+    text-align: center;
+}
+
+.BookInfoImg {
+    margin-top: 61px;
+}
+
+.Favorite{
+    width: 56px;
+    height: 56px;
+    background-color: #313037;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left:487px;
+    margin-top:-415px ;
+    cursor: pointer;
+}
+
+.Favorite:hover {
+    
+    path {
+        stroke: #FC857F;
+        transition: 0.5s;
+    }
+}
+
+.Favorite:active {
+    svg {
+        fill:#FC857F ;
+    }
+}
+
+.BookInfoGrade {
+    display: flex;
+    gap: 234px;
+    margin-top: 41px;
+    align-items: center;
+    margin-bottom: 46px;
+}
+
+.BookInfoBasket {
+    border-top: 1px solid #E7E7E7;
+}
+
+.BookInfoPrice {
+    font-family: 'Bebas';
+    font-size: 40px;
+}
+
+.UlContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ListLeft {
+    font-family: 'Helios';
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #A8A8A8;
+}
+
+.ListRight {
+    font-family: 'Helios';
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #313037;
+}
+
+.Dropdown {
+    font-family: 'Helios';
+    font-size: 16px;
+    margin-top: 16px;    
+}
+
+.DropdownWrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.ArrowBtm {
+    margin-top: 16px;
+}
+
+.BookInfoBtn {
+    margin-top: 60px;
+    width: 448px;
+    height: 56px;
+    background-color: #313037;
+    color: white;
+    font-family: 'Bebas';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+button:disabled,:hover
+button[disabled]{
+  background: #A8A8A8;
+  border: none;
+  cursor: default;
+}
+
+
+.BookInfoBtn:hover {
+    transition: 0.5s;
+    background-color: #5B5A62;
+}
+.BookInfoBtn:active {
+    transition: 0.5s;
+    background-color: #5B5A62;
+}
+
+
+.Btns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+
+.button {
+    color: green;
+}
+
+.Preview {
+    text-decoration: none;
+    font-family: 'Helios';
+    font-size: 16px;
+    color: #313037;    
+}
+
+.BookInfoItems{
+    display: flex;
+    gap: 40px;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 49px;
+    font-family: 'Helios';
+    color: #A8A8A8;
+}
+
+.BookInfoItems div {
+    width: 161px;
+    height: 48px;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box; 
+    
+}
+
+.BookInfoItems div:hover {
+    color: #313037;
+    transition: color 0.5s, border-bottom 0.5s, box-shadow 0.5s, opacity 0.5s;
+    border-bottom: 1px solid #313037;
+    box-shadow: 0px 2px 0px 0px #313037;
+
+}
+
+.BookItemsDesc {
+    font-family: 'Helios';
+    font-size: 16px;
+    line-height: 32px;
+    color: #313037;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 48px;
+}
+
+.SocialItems {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 72px;
+    cursor: pointer;
+}

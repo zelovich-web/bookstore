@@ -1,0 +1,29 @@
+.Title {
+    font-family: 'Bebas';
+    font-size: 56px;
+    margin-top: 72px;
+    margin-bottom: 16px;
+}
+
+.Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    max-width: 100%;
+    margin-top:48px ;
+}
+
+.FoundBooks {
+    font-family: 'Helios';
+    font-size: 16px;
+    color: #A8A8A8; 
+}
+
+
+
+@media (max-width:768px) {
+    .Wrapper {
+        gap: 7px;
+        min-width: 688px;
+    }
+}

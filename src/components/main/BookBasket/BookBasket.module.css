@@ -1,0 +1,135 @@
+.Arrow {
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+
+.BasketTitle {
+    font-family: 'Bebas';
+    font-size: 56px;
+}
+
+.BasketWrapp {
+    display: flex;
+    margin-top: 48px;
+    border-bottom: solid 1px #E7E7E7;
+    margin-bottom: 48px;
+}
+
+.ImgBg {
+    min-width: 256px;
+    min-height: 192.18px;
+    
+    
+    text-align: center;
+    margin-bottom: 49px;
+    margin-right: 32px;
+    background-color: #D7E4FD;
+}
+
+.Img {
+    width: 163.9px;
+    height: 191.46px;   
+    
+}
+
+.BasketInfo {
+    margin-top: 44px;
+}
+
+.BasketInfoTitle {
+    font-family: 'Bebas';
+    font-size: 24px;
+    margin-bottom: 8px;
+    min-width: 446px;
+}
+
+.BasketInfoSubTitle {
+    font-family: 'Helios';
+    font-size: 16px;
+    color: #A8A8A8;
+}
+
+.BasketPrice {
+    margin-top: 92px;
+    margin-left: 130px;
+    font-family: 'Bebas';
+    font-size: 40px;
+}
+
+.Cancel {
+    margin: 84px 16px 133px 129px;
+    cursor: pointer;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+.Counter span {
+    font-family: 'Bebas';
+    font-size: 24px;
+}
+
+.Counter {
+    display: flex;
+    gap: 30px;
+    width: 168px;
+    height: 56px;
+    margin-top: 24px;    
+    cursor: pointer;
+}
+
+.Total {
+    width: 276px;
+    margin-left: 853px;
+    margin-bottom: 72px;
+}
+
+.Total div {
+    display: flex;
+    font-family: 'Helios';
+    font-size: 16px;
+    color: #A8A8A8;
+}
+
+div .TotalPrice {
+    font-family: 'Bebas';
+    font-size: 40px;
+    color: #313037;
+    
+}
+
+.TotalSum {
+    margin-left: 142px;
+    margin-bottom: 16.46px;
+}
+
+.TotalPrice p {
+    margin-left: 89px;
+    margin-bottom: 24px;
+}
+
+.TotalVat {
+    margin-left: 181px;
+    margin-bottom: 24px;
+}
+
+.Total div p {
+    color: #313037;
+}
+
+
+.TotalSum {
+    font-family: 'Helios';
+    font-size: 16px;
+    
+}
+
+.TotalBtn {
+    width: 267px;
+    height: 56px;
+    background-color: #313037; 
+    color: #FFFFFF;   
+    font-family: 'Bebas';
+    font-size: 24px;
+    cursor: pointer;
+    
+}

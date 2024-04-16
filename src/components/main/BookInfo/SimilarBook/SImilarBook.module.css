@@ -1,0 +1,44 @@
+.SliderTitle {
+    font-family: 'Bebas';
+    font-size: 40px;
+}
+
+.SimilarBookWrapp {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.SliderContainer {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 20px 0;
+    }
+    
+    .Slider {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    margin-bottom: 10px;
+    gap: 32px;
+    margin-top: 48px;
+    }
+    
+
+.SlliderItems {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SliderSvg {
+    margin-left: 872px;
+    display: flex;
+    gap: 16px;
+}
+
+.SliderSvg:focus {
+    transform: scaleX(0,5)
+}

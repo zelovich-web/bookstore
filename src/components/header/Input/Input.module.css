@@ -1,0 +1,94 @@
+.Input {
+    width: 542px;
+    height: 56px;
+    outline: none;
+    border: 1px solid #E7E7E7;
+    background-image: url('/src/components/header/header\ assets/Icon-Search.svg');
+    background-repeat: no-repeat;
+    background-position-x: 502px;
+    background-position-y: 16px;
+    font-size: 16px;
+    color: #A8A8A8;
+    padding-left: 20px;
+    margin-right: 124px;
+    font-family: 'Helios';
+    cursor: pointer;
+}
+
+.Input::placeholder{
+    color: #A8A8A8;
+}
+
+.Input:focus {
+    background-color: #E7E7E7;
+    transition: 1s;
+}
+
+
+.QueryWrapp {
+     width: 562px;
+     min-height: 100px;
+     border-left: 1px solid #E7E7E7;
+     border-right: 1px solid #E7E7E7;
+     position: absolute;
+     top: 88px;
+     left: 689px;
+     z-index: 999;
+     align-items: center;
+     box-sizing: border-box;
+     
+}
+
+.QueryItems {
+    height: 100px;
+    border-top: 1px solid #E7E7E7;
+    background-color: white;
+    cursor: pointer;
+    
+}
+
+.ImgBg {
+    width: 80px;
+    height: 59.77px;
+    background-color: #D7E4FD;
+    margin: 20px 0px 20px 20px;
+    
+}
+
+.QueryImg {
+    height: 60px;
+
+    
+}
+
+.QueryTitle {
+    font-size: 14px;
+    width: 351px;
+    height: 32px;
+    margin-top: -60px;
+    margin-left: 116px;
+}
+
+.QueryAllResults {
+    width: 560px;
+    height: 57px;
+    padding-top: 19px; 
+    background-color:white  ;  
+    border-top: 1px solid #E7E7E7 ; 
+    border-bottom: 1px solid #E7E7E7 ; 
+    font-family: 'Helios';
+    font-size: 16px;
+    color: #A8A8A8;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .Input {
+        display: none;
+    }
+}
+
+
+
