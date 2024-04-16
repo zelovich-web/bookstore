@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '/Bookstore/src/components/footer/Footer.module.css';
+import styles from './Footer.module.css'
 
 const Footer: React.FC = () => {
   return (
